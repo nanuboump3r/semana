@@ -11,8 +11,8 @@ const tasks = [
 
 const calendar = document.getElementById('calendar');
 
-const clickSound = new Audio('sounds/click.mp3');
-const undoSound = new Audio('sounds/undo.mp3');
+const clickSound = new Audio('click.mp3');
+const undoSound = new Audio('undo.mp3');
 
 tasks.forEach((item, index) => {
   const stored = localStorage.getItem(`task_${index}`);
